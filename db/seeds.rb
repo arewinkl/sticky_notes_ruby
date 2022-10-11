@@ -29,3 +29,7 @@ StockData.destroy_all
  sticky_note8 = StockData.create(date:"2022-06-26", importance:"50", position:1, text:"Take care of the hot dog order for the game this week, someone dropped the ball and we need that order done ASAP!!", user_id: drake.id)
 
  sticky_note9 = StockData.create(date:"2022-06-28", importance:"82", position:0, text:"send scouts out on their assignments to find new tallent for the next transfer window, and hire a baker to figure out what is inside those delicious biscuits!!", user_id:frank.id)
+
+ sticky_note10 = StockData.create(date:"2022-09-10", importance:"22", position:1, text:"Find out where to purchase new sticky notes before they run out.", user_id:ursula.id)
+
+ sticky_note11 = StockData.create(date:"2022-10-10", importance:"99", position:0, text: "Remember to go to get more halloween candy for the kids.")
