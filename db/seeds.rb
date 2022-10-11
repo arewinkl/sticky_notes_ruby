@@ -10,6 +10,7 @@ StockData.destroy_all
  frank = User.create(first_name:"Frank", last_name:"Fankenstein")
  drake = User.create(first_name:"Drake", last_name:"Ula")
  usrula = User.create(first_name:"Ursula", last_name:"Sea")
+ casper = User.create(first_name:"Casper", last_name:"Ghost")
 
  sticky_note1 = StockData.create(date:"2022-06-30", importance:"99", position:1, text:"Be sure to revoke all of Nates access to the AFC Richmond fascility, and get back all team property from him", user_id:frank.id)
 
