@@ -11,4 +11,5 @@ StockData.destroy_all
 
 
  sticky_note1 = StockData.create(date:"2022-06-30", importance:"99", position:1 ,text:"Be sure to revoke all of Nates access to the AFC Richmond fascility, and get back all team property from him", user_id:frank.id)
- 
+
+ sticky_note2 = StockData.create(date:"2022-06-28", importance:"50", position:0, text:"Remind everyone on the team that Football is life not death...", user_id:frank.id)
