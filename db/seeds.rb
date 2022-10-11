@@ -7,8 +7,8 @@ StockData.destroy_all
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
- frank = User.create(first_name:"frank", last_name:"fankenstein")
-
+ frank = User.create(first_name:"Frank", last_name:"Fankenstein")
+ drake = User.create(first_name:"Drake", last_name:"Ula")
 
  sticky_note1 = StockData.create(date:"2022-06-30", importance:"99", position:1 ,text:"Be sure to revoke all of Nates access to the AFC Richmond fascility, and get back all team property from him", user_id:frank.id)
 
