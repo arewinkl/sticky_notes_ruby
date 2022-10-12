@@ -13,6 +13,7 @@ StockData.destroy_all
  drake = User.create(first_name:"Drake", last_name:"Ula")
  ursula = User.create(first_name:"Ursula", last_name:"Sea")
  casper = User.create(first_name:"Casper", last_name:"Ghost")
+ weara = User.create(first_name:"Weara", last_name:"Wolfe")
 
 #TODO created stock data that will be linked by user.id
 
