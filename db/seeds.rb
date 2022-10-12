@@ -44,3 +44,5 @@ StockData.destroy_all
  sticky_note13 = StockData.create(date:"2022-10-20", importance:"75", position:1, text: "Go to the store and buy some fish food", user_id:ursula.id)
 
  sticky_note14 = StockData.create(date:"2022-09-29", importance:"55", position:0, text: "How to maximize fantasy points, while also rooting for your favorite team.", user_id:casper.id)
+
+ sticky_note15 = StockData.create(date:"2022-10-01", importance:"98", position:1, text: "Check the lunar calendar before going to the party friday night.")
